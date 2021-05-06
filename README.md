@@ -3,12 +3,11 @@ DAPLink firmware images for MAX325PICO board
 
 
 ## Latest Releases
-
 | Drag-n-Drop Target | Binary | Erase support |
 |--------|--------|---------------|
 | MAX78000FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max78000fthr_if_crc_v1.0.2.bin) | :heavy_check_mark: |
 | MAX32630FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_daplink_factory_default_v3.bin) | :heavy_check_mark: |
-
+| MAX32666FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max32666fthr_if_crc_v1.bin) | :heavy_check_mark: |
 
 ## Previous Releases
 | Drag-n-Drop Target | Binary | Erase support |
