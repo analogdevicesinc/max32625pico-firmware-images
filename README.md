@@ -3,16 +3,20 @@ DAPLink firmware images for MAX325PICO board
 
 
 ## Latest Releases
-| Drag-n-Drop Target | Binary | Erase support |
-|--------|--------|---------------|
-| MAX78000FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max78000fthr_if_crc_v1.0.2.bin) | :heavy_check_mark: |
-| MAX32630FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_daplink_factory_default_v3.bin) | :heavy_check_mark: |
-| MAX32666FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max32666fthr_if_crc_v1.bin) | :heavy_check_mark: |
+| Drag-n-Drop Target | Binary | Details SHA  | Erase support |
+|--|--|--|--|
+| MAX78000FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max78000fthr_if_crc_v1.0.2.bin) | a209a92 | :heavy_check_mark: |
+| MAX32630FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_daplink_factory_default_v3.bin) | aab4d91 | :heavy_check_mark: |
+| MAX32666FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max32666fthr_if_crc_v1.bin) | 19edd04 | :heavy_check_mark: |
 
 ## Previous Releases
-| Drag-n-Drop Target | Binary | Erase support |
-|--------|--------|---------------|
-| MAX32630FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625pico_daplink.bin) | :x: |
+| Drag-n-Drop Target | Binary | Details SHA  | Erase support |
+|--|--|--|--|
+| MAX32630FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625pico_daplink.bin) | 5d2ab47 | :x: |
+
+## Details SHA
+This SHA helps the user to identify the current version of the firmware loaded on the board. Open the DETAILS.TXT file in the DAPLINK drive and match the Git SHA field.
+</br>This is not the SHA of the binary file.
 
 ## How to erase target flash?
 1. Unplug the target board and the MAX32625PICO debug adapter.
