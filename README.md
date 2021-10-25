@@ -4,23 +4,38 @@ DAPLink firmware images for MAX325PICO board
 ## Latest Releases
 | Drag-n-Drop Target | Binary | Details SHA  | Erase support |
 |--|--|--|--|
-| MAX78000FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max78000fthr_if_crc_v1.0.2.bin)  | a209a92 | :heavy_check_mark: |
-| MAX32630FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_daplink_factory_default_v3.bin)  | aab4d91 | :heavy_check_mark: |
-| MAX32666FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max32666fthr_if_crc_v1.bin)      | 19edd04 | :heavy_check_mark: |
-| MAX32665HSP3 | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max32665hsp_if_crc.bin )         | d7b5231 | :x: |
-| MAX32620FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max32620fthr_if_crc.bin )        | f499eb6 | :x: |
-| MAX32625PICO | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625pico_max32625pico.bin )               | 84e3053 | :x: |
-| MAX32630HSP2 | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625pico_max32630hsp.bin )            | 84e3053 | :x: |
-| MAX32660 | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625pico_max32660_vio_in.bin )            | 84e3053 | :x: |
-| MAX32660 | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625pico_max32660_power_out.bin ):warning:| fd4512f | :x: |
+| MAX32620FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32620fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32630fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX32660EVSYS| [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32660evsys_if_crc_dip_v1.0.3.bin) | 34fe95 | :heavy_check_mark: |
+| MAX32666FDP  | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fdp_if_crc_swd_v1.0.3.bin)   | 34fe95 | :heavy_check_mark: |
+| MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX32655FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32655fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX32672FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32672fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX32675FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32675fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX78000FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max78000fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX32625PICO | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32625pico.bin )               | 84e3053 | :x: |
+| MAX32630HSP2 | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32630hsp.bin )                | 84e3053 | :x: |
+| MAX32660     | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32660_vio_in.bin )            | 84e3053 | :x: |
+| MAX32660     | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32660_power_out.bin ):warning:| fd4512f | :x: |
 
 :warning: This image will apply 3.3V to the VIO pin of the MAXDAP connector allowing the MAX32625PICO board to power the MAX32660 Evaluation Kit. It may permanently damage other incompatible target boards.
+
+## Bootloader Programmer Releases
+| Drag-n-Drop Target | Binary | Details SHA  | Erase support |
+|--|--|--|--|
+| MAX32620FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32620fthr_if_crc_swd_v1.0.3_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
+| MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32630fthr_if_crc_swd_v1.0.3_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
+| MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr_if_crc_swd_v1.0.3_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
 
 ## Previous Releases
 | Drag-n-Drop Target | Binary | Details SHA  | Erase support |
 |--|--|--|--|
-| MAX32630FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625pico_daplink.bin)                 | 5d2ab47 | :x: |
-| MAX32630FTHR | [Download](https://github.com/MaximIntegratedMicros/max32625pico-firmware-images/raw/main/bin/max32625_max32630fthr_if_crc.bin)         | f499eb6 | :x: |
+| MAX32620FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/previous_releases/max32625_max32620fthr_if_crc.bin )        | f499eb6 | :x: |
+| MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/previous_releases/max32625pico_daplink.bin)                 | 5d2ab47 | :x: |
+| MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/previous_releases/max32625_max32630fthr_if_crc.bin)         | f499eb6 | :x: |
+| MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/previous_releases/max32625_daplink_factory_default_v3.bin)  | aab4d91 | :heavy_check_mark: |
+| MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/previous_releases/max32625_max32666fthr_if_crc_v1.bin)      | 19edd04 | :heavy_check_mark: |
+| MAX78000FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/previous_releases/max32625_max78000fthr_if_crc_v1.0.2.bin)  | a209a92 | :heavy_check_mark: |
 
 ## Details SHA
 This SHA helps the user to identify the current version of the firmware loaded on the board. Open the DETAILS.TXT file in the DAPLINK drive and match the Git SHA field.
@@ -28,6 +43,11 @@ This SHA helps the user to identify the current version of the firmware loaded o
 
 ## MAX32625PICO Board
 ![MAX32625PICO Board](/max32625pico_maxdap.png)
+
+## MAX32625PICO2 (Bootloader Programmer) Board
+Bootloader Programmer PICO provide standart PICO functionality plus bootloader programmer interface.
+More detail about bootloader programmer board [Bootloader Programmer UG](https://pdfserv.maximintegrated.com/en/an/ug7510-maxim-bootloader-tools.pdf)
+![MAX32625PICO2 Board](/max32625pico2_maxdap.png)
 
 ## What about the targets not listed above?
 The factory default firmware, i.e. MAX32630FTHR binary can program all the targets via the HID CMSIS-DAP debugging/programming interface.
