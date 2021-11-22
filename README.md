@@ -63,3 +63,7 @@ Just like most DAPLink interfaces, the MAX32625PICO board comes pre-installed wi
    * How to enable [Automation](https://github.com/ARMmbed/DAPLink/blob/master/docs/ENABLE_AUTOMATION.md)?
 4. Create an empty file - 'erase.act' on the host machine and Drag-n-Drop (copy-and-paste) it on to the DAPLINK drive.
 5. This should erase the target's flash memory. The DAPLINK drive will disconnect and reconnect completing the operation.
+
+### License
+The software is provided under the [Apache-2.0 license](LICENSE-apache-2.0.txt). 
+Contributions to this project are accepted under the same license.
