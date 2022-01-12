@@ -23,9 +23,9 @@ DAPLink firmware images for MAX325PICO board
 ## Bootloader Programmer Releases
 | Drag-n-Drop Target | Binary | Details SHA  | Erase support |
 |--|--|--|--|
-| MAX32620FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32620fthr_if_crc_swd_v1.0.3_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
-| MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32630fthr_if_crc_swd_v1.0.3_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
-| MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr_if_crc_swd_v1.0.3_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
+| MAX32620FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32620fthr_if_crc_swd_v1.0.4_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
+| MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32630fthr_if_crc_swd_v1.0.4_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
+| MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr_if_crc_swd_v1.0.4_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
 
 ## Previous Releases
 | Drag-n-Drop Target | Binary | Details SHA  | Erase support |
