@@ -7,7 +7,7 @@ DAPLink firmware images for MAX325PICO board
 | MAX32620FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32620fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32630fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX32660EVSYS| [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32660evsys_if_crc_dip_v1.0.3.bin) | 34fe95 | :heavy_check_mark: |
-| MAX32666FDP  | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fdp_if_crc_swd_v1.0.3.bin)   | 34fe95 | :heavy_check_mark: |
+| MAX32666FTHR2| [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr2_if_crc_swd_v1.0.3.bin) | 34fe95 | :heavy_check_mark: |
 | MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX32655FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32655fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX32672FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32672fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
