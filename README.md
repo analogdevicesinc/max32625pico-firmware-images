@@ -65,5 +65,5 @@ Just like most DAPLink interfaces, the MAX32625PICO board comes pre-installed wi
 5. This should erase the target's flash memory. The DAPLINK drive will disconnect and reconnect completing the operation.
 
 ### License
-The software is provided under the [Apache-2.0 license](LICENSE-apache-2.0.txt). 
+The software is provided under the [Apache-2.0 license](LICENSE.txt). 
 Contributions to this project are accepted under the same license.
