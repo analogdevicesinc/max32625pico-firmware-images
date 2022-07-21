@@ -15,7 +15,7 @@ DAPLink firmware images for MAX325PICO board
 | MAX32675FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32675fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX78000FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max78000fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX32625PICO | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32625pico.bin )               | 84e3053 | :x: |
-| MAX32630HSP2 | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32630hsp.bin )                | 84e3053 | :x: |
+| MAX32630HSP2 | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32630hsp_if_crc_dip_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX32660     | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32660_vio_in.bin )            | 84e3053 | :x: |
 | MAX32660     | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32660_power_out.bin ):warning:| fd4512f | :x: |
 
@@ -37,6 +37,7 @@ DAPLink firmware images for MAX325PICO board
 | MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/previous_releases/max32625_daplink_factory_default_v3.bin)  | aab4d91 | :heavy_check_mark: |
 | MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/previous_releases/max32625_max32666fthr_if_crc_v1.bin)      | 19edd04 | :heavy_check_mark: |
 | MAX78000FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/previous_releases/max32625_max78000fthr_if_crc_v1.0.2.bin)  | a209a92 | :heavy_check_mark: |
+| MAX32630HSP2 | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32630hsp.bin)  							   | 84e3053 | :x: |
 
 ## Details SHA
 This SHA helps the user to identify the current version of the firmware loaded on the board. Open the DETAILS.TXT file in the DAPLINK drive and match the Git SHA field.
