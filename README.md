@@ -8,14 +8,15 @@ DAPLink firmware images for MAX325PICO board
 | MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32630fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX32660EVSYS| [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32660evsys_if_crc_dip_v1.0.3.bin) | 34fe95 | :heavy_check_mark: |
 | MAX32666FTHR2| [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr2_if_crc_swd_v1.0.3.bin) | 34fe95 | :heavy_check_mark: |
-| MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr_if_crc_swd_v1.0.5.bin)  | fc211c | :heavy_check_mark: |
 | MAX32655FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32655fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX32670EVKIT| [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32670evkit_if_crc_swd_v1.0.3.bin) | 34fe95 | :heavy_check_mark: |
-| MAX32672FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32672fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
-| MAX32675FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32675fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX32672FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32672fthr_if_crc_swd_v1.0.5.bin)  | fc211c | :heavy_check_mark: |
+| MAX32675FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32675fthr_if_crc_swd_v1.0.5.bin)  | fc211c | :heavy_check_mark: |
 | MAX78000FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max78000fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX32625PICO | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32625pico.bin )               | 84e3053 | :x: |
 | MAX32630HSP2 | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32630hsp_if_crc_dip_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX32666HSP3 | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666hsp3_if_crc_dip_v1.0.5.bin)  | fc211c | :heavy_check_mark: |
 | MAX32660     | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32660_vio_in.bin )            | 84e3053 | :x: |
 | MAX32660     | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32660_power_out.bin ):warning:| fd4512f | :x: |
 
@@ -26,7 +27,7 @@ DAPLink firmware images for MAX325PICO board
 |--|--|--|--|
 | MAX32620FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32620fthr_if_crc_swd_v1.0.4_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
 | MAX32630FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32630fthr_if_crc_swd_v1.0.4_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
-| MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr_if_crc_swd_v1.0.4_pico2.bin)  | b4a2d4 | :heavy_check_mark: |
+| MAX32666FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666fthr_if_crc_swd_v1.0.5_pico2.bin)  | dd439e | :heavy_check_mark: |
 
 ## Previous Releases
 | Drag-n-Drop Target | Binary | Details SHA  | Erase support |
