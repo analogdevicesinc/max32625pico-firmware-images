@@ -14,6 +14,7 @@ DAPLink firmware images for MAX325PICO board
 | MAX32672FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32672fthr_if_crc_swd_v1.0.5.bin)  | fc211c | :heavy_check_mark: |
 | MAX32675FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32675fthr_if_crc_swd_v1.0.5.bin)  | fc211c | :heavy_check_mark: |
 | MAX78000FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max78000fthr_if_crc_swd_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
+| MAX32650FTHR | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32650fthr_if_crc_swd_v1.0.6.bin)  | 649f2a | :heavy_check_mark: |
 | MAX32625PICO | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625pico_max32625pico.bin )               | 84e3053 | :x: |
 | MAX32630HSP2 | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32630hsp_if_crc_dip_v1.0.3.bin)  | 34fe95 | :heavy_check_mark: |
 | MAX32666HSP3 | [Download](https://github.com/MaximIntegrated/max32625pico-firmware-images/raw/master/bin/max32625_max32666hsp3_if_crc_dip_v1.0.5.bin)  | fc211c | :heavy_check_mark: |
@@ -52,12 +53,30 @@ Bootloader Programmer PICO provide standart PICO functionality plus bootloader p
 More detail about bootloader programmer board [Bootloader Programmer UG](https://pdfserv.maximintegrated.com/en/an/ug7510-maxim-bootloader-tools.pdf)
 ![MAX32625PICO2 Board](/max32625pico2_maxdap.png)
 
+## SWD/DIP Interfaces
+There are [two debug interfaces in MAX32625 DAPLink FW](https://github.com/MaximIntegrated/DAPLink/blob/main/source/hic_hal/maxim/max32625/IO_Config.h#L97). 
+It is called as SWD and DIP interface. The MAX32625 DAPLink fw is generated to support one of these interface.
+The _swd_ or _dip_ addition in image file name indicates debug interface configuration. [The pin connection SWD and DIP interface](https://github.com/MaximIntegrated/DAPLink/blob/main/source/hic_hal/maxim/max32625/IO_Config.h#L68) listed in below table.
+
+| PIN Name | SWD  | DIP  |
+|--|--|--|
+| Reset    | P3.7 | P0.4 |
+| SWDCLK   | P3.2 | P0.2 |
+| SWDIO    | P3.3 | P0.3 |
+| UART TX  | P2.0 | P0.0 |
+| UART RX  | P2.1 | P0.1 |
+
 ## What about the targets not listed above?
 The factory default firmware, i.e. MAX32630FTHR binary can program all the targets via the HID CMSIS-DAP debugging/programming interface.
 </br>Only the MSD Drag-n-Drop programming is target-specific.
 
 ## How to update the firmware?
-Just like most DAPLink interfaces, the MAX32625PICO board comes pre-installed with a bootloader that enables driverless drag-n-drop updates. This bootloader can be used to update or restore the DAPLink firmware on the MAX32625PICO board or it can also be used to load your own custom application on the board. This allows you to use the MAX32625PICO board as a tiny, embeddable development platform. To activate the bootloader, simply hold the lone button down while applying power to the board. When the bootloader detects the button press at power on, it will connect to the PC as a drive named "MAINTENANCE". Simply Drag-n-Drop the desired image onto the MAINTENANCE drive to load new firmware into the board.
+Just like most DAPLink interfaces, the MAX32625PICO board comes pre-installed with a bootloader that enables driverless drag-n-drop updates. 
+This bootloader can be used to update or restore the DAPLink firmware on the MAX32625PICO board or it can also be used to load your own custom application on the board. 
+This allows you to use the MAX32625PICO board as a tiny, embeddable development platform. 
+To activate the bootloader: 
+1. Simply hold the lone button down while applying power to the board. When the bootloader detects the button press at power on, it will connect to the PC as a drive named "MAINTENANCE". 
+2. Simply Drag-n-Drop the desired image onto the MAINTENANCE drive to load new firmware into the board.
 
 ## How to erase the target flash?
 1. Unplug the target board and the MAX32625PICO debug adapter.
